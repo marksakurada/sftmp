@@ -1,0 +1,61 @@
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-550346e37c65090e" async="async"></script>
+{{#headerSmall}}
+  {{> organisms-site-header-top}}
+{{/headerSmall}}
+{{#headerLarge}}
+  {{> organisms-site-header-top-large}}
+{{/headerLarge}}
+<div id="globalWrapper" class="shows-page">
+  {{> organisms-page-top}}
+  <div id="container" class="container">
+    <div class="container-inner">
+      <section id="content" class="row">
+        <div class="full-hero">
+          <div class="col-lg-12">
+            {{#fullHero}}
+              {{> molecules-hero-box}}
+            {{/fullHero}}
+          </div>
+        </div>
+        <div class="content contentLeft col-xs-12 col-sm-7 col-md-8">
+          <div class="content-inner">
+            {{> molecules-header-group}}
+
+            {{{ placeholderContent }}}
+
+            <h3 class="section">Hosts</h3>
+            {{#hosts}}
+              {{> molecules-host-item}}
+            {{/hosts}}
+            
+            {{#slideshow}}
+              {{> molecules-slideshow}}
+            {{/slideshow}}
+            {{#topImg}}
+              {{> molecules-image-with-caption}}
+            {{/topImg}}
+            {{#youTube}}
+              {{> atoms-youtube-video}}
+            {{/youTube}}
+            {{#vimeo}}
+              {{> atoms-vimeo-video}}
+            {{/vimeo}}
+
+            <h3 class="section">Latest Content</h3>
+            <div class="latest-show-content">
+              {{> organisms-content-listing}}
+              {{> molecules-load-more}}
+            </div>
+
+          </div>
+        </div>
+        <div class="sidebar sidebarRight col-xs-12 col-sm-5 col-md-4">
+          <div class="sidebar-inner">
+            {{> organisms-sidebar-show-page}}
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  {{> organisms-footer}}
+</div>

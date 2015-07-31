@@ -1,0 +1,60 @@
+{
+  "title": "Home",
+  "fullHero": {
+    "title": "The Best Concerts In Portland",
+    "subtitle": "Summer Series",
+    "size": "tall",
+    "position": "middle"
+  },
+  "slideshow": true,
+  "gallerySlides": [
+    {
+      "img": "../../../../assets/images/Delta.jpg",
+      "slideTitle": "The New Black Keys are here!",
+      "slideSubline": "Find out how you and your friends can hear it first",
+      "url": "http://google.com"
+    },
+    {
+      "img": "../../../../assets/images/Delta-flipped.jpg",
+      "slideTitle": "Get ready for Foo Fighters! Have your tickets?",
+      "slideSubline": "Find out how you and your friends can go!"
+    },
+    {
+      "img": "../../../../assets/images/Delta-flipped2.jpg",
+      "slideTitle": "Dave Grohl + Slash = Watch This Now!",
+      "slideSubline": "Epicness transpires when Rock Legends meet"
+    },
+    {
+      "img": "../../../../assets/images/Delta-flipped3.jpg",
+      "slideTitle": "Listen to the 8 @ 8 for your chance to win!",
+      "slideSubline": "The lucky winners will fly first class to see Muse"
+    },
+    {
+      "img": "../../../../assets/images/Delta.jpg",
+      "slideTitle": "The New Black Keys are here!",
+      "slideSubline": "Find out how you and your friends can hear it first",
+      "url": "http://google.com"
+    }
+  ],
+  "carousel": true,
+  "galleryDescription": false,
+  "c2aBetaTop": {
+    "url": "http://entercom.com",
+    "img": "../../../../assets/images/Beta.jpg",
+    "caption": "Chive Fest @ Seattle Center",
+    "type": "Events"
+  },
+  "c2aBetaSide": {
+    "url": "http://entercom.com",
+    "img": "../../../../assets/images/Beta-foo.jpg",
+    "caption": "Foo Fighters Are Live & Ready!",
+    "type": "Events"
+  },
+  "c2aAlphaMiddle": {
+    "url": "http://entercom.com",
+    "img": "../../../../assets/images/Alpha-blackkeys.jpg",
+    "caption": "Black Keys In Color",
+    "type": "Gallery"
+  },
+  "latestContentTitle": "Latest"
+}

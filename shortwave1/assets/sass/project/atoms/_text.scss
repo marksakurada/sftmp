@@ -1,0 +1,210 @@
+/* -------------------------- *\
+            Text
+\* -------------------------- */
+/**
+  Fonts, text size, etc.
+ */
+#page {
+  p, ul, ol {
+    font-size: $body-font-size;
+  }
+}
+
+.font-primary {
+  font-family: $font-primary;
+  font-size: 20px;
+}
+
+.font-secondary {
+  font-family: $font-secondary;
+  font-size: 20px;
+}
+
+.font-tertiary {
+  font-family: $font-tertiary;
+  font-size: 20px;
+}
+
+.font-quaternary {
+  font-family: $font-quaternary;
+  font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-tertiary;
+  font-weight: normal;
+  color: #000;
+}
+
+h1, .h1 {
+  font-size: 30px;
+}
+
+h2, .h2 {
+  font-size: 26px;
+}
+
+h3, .h3 {
+  font-size: 22px;
+
+  &.section {
+    font-size: 30px;
+  }
+}
+
+#page-title {
+  font-size: 40px;
+  margin: 0 0 20px 0;
+
+  @media (max-width: $large-up) {
+    font-size: 30px;
+  }
+  @media (max-width: $medium-up) {
+    font-size: 40px;
+  }
+  @media (max-width: 640px) {
+    font-size: 35px;
+  }
+  @media (max-width: 500px) {
+    font-size: 30px;
+  }
+}
+
+.pane-entity-field.pane-node-field-subtitle {
+  color: #7e7e7e;
+  font-size: 30px;
+  line-height: 1;
+  margin: -15px 0 20px 0;
+
+  @media (max-width: $large-up) {
+    font-size: 20px;
+  }
+  @media (max-width: $medium-up) {
+    font-size: 30px;
+  }
+  @media (max-width: 640px) {
+    font-size: 25px;
+  }
+  @media (max-width: 500px) {
+    font-size: 20px;
+  }
+}
+
+// Style Venu name as subtitle when it directly follows Title.
+.pane-node-title + .pane-node-field-venue-name {
+  color: #7e7e7e;
+  font-size: 30px;
+  line-height: 1;
+  margin: -15px 0 20px 0;
+
+  @media (max-width: $large-up) {
+    font-size: 20px;
+  }
+  @media (max-width: $medium-up) {
+    font-size: 30px;
+  }
+  @media (max-width: 640px) {
+    font-size: 25px;
+  }
+  @media (max-width: 500px) {
+    font-size: 20px;
+  }
+}
+
+.view-blog-byline {
+  @include clear();
+  margin: 0 0 30px 0;
+  line-height: 1;
+
+  .views-field-field-cover-image {
+    float: left;
+    margin-right: 10px;
+    max-height: 55px;
+  }
+
+  .views-field-title-1 {
+    padding-top: 7px;
+    margin-bottom: 0;
+    font-family: "Francois One", sans-serif;
+    font-size: 22px;
+    color: #000;
+
+    a {
+      color: #000;
+      text-decoration: none;
+    }
+  }
+
+  .views-field-field-byline {
+    @include font-awesome("\f105");
+
+    .field-content {
+      display: inline-block;
+    }
+  }
+}
+
+a {
+  color: $color--grey;
+  text-decoration: none;
+}
+
+%caption {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+  color: #FFF;
+}
+
+.caption {
+  @extend %caption;
+  padding: 30px 0 20px 20px;
+
+  &--header {
+    @extend %caption;
+    padding: 30px 0 20px 0;
+    text-align: center;
+
+    & > h2 {
+      color: #FFF;
+      padding: 0 0 15px 0;
+    }
+
+    &--centered {
+      text-align: center;
+      min-height: 200px;
+      padding: 50px 0;
+
+      & > h2 {
+        padding: 0 0 15px 0;
+        border-bottom: 3px solid $color--grey;
+      }
+    }
+  }
+}
+
+.caption-wrapper {
+  &--centered {
+    min-height: 200px;
+    position: relative;
+  }
+}
+
+#page .field-type-image figcaption {
+  text-align: right;
+  padding-right: 10px;
+  &, p, div {
+    font-size: 10px;
+  }
+}
+
+#page .node--featured figcaption {
+  color: #fff;
+  display: block;
+  position: absolute;
+  bottom: 3px;
+  left: 25px;
+  z-index: 5;
+  font-size: 10px;
+  @media (max-width: 992px) {
+    left: 60px;
+  }
+}

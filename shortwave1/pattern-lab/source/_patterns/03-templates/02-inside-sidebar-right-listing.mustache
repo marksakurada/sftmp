@@ -1,0 +1,28 @@
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-550346e37c65090e" async="async"></script>
+{{#headerSmall}}
+  {{> organisms-site-header-top}}
+{{/headerSmall}}
+{{#headerLarge}}
+  {{> organisms-site-header-top-large}}
+{{/headerLarge}}
+<div id="globalWrapper">
+  {{> organisms-page-top}}
+  <div id="container" class="container">
+    <div class="container-inner">
+      <section id="content" class="content-listing-row row">
+          <div class="content contentLeft col-xs-12 col-sm-7 col-md-8">
+          {{#contentListingItems}}
+            {{> molecules-content-listing-item}}
+          {{/contentListingItems}}
+          {{> molecules-drupal-pagination-active}}
+        </div>
+        <div class="sidebar sidebarRight col-xs-12 col-sm-5 col-md-4">
+          <div class="sidebar-inner">
+            {{> organisms-sidebar-blog}}
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  {{> organisms-footer}}
+</div>

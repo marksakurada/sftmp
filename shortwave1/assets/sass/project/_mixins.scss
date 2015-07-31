@@ -1,0 +1,58 @@
+/*
+** Global Mixins Are Set Here
+*/
+
+@mixin vertically-center($horizontally-center: false, $absolute-positioning: false, $undo: false) {
+  top: 50%;
+  @include transform-style(preserve-3d);
+  
+  @if($absolute-positioning) {
+    position: absolute;
+  } @else {
+    position: relative;
+  }
+  
+  @if($horizontally-center) {
+    left: 50%;
+    @include transform(translateX(-50%) translateY(-50%));
+  } @else {
+    @include transform(translateY(-50%));
+  }
+  
+  @if($undo) {
+    position: static;
+    left: auto;
+    @include transform(none);
+  }
+  
+  .no-csstransforms & {//@todo IE8 support
+    
+  }
+}
+
+@mixin font-awesome($awesomeCode) {
+  position: relative;
+
+  &:before {
+    content: $awesomeCode;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0 3px 0 0;
+    text-decoration: inherit;
+  }
+}
+
+@mixin clear() {
+  &:after {
+    display: block;
+    clear: both;
+    content: " ";
+  }
+}
+
+@mixin container(){
+  max-width: 1170px;
+  margin: 0 auto;
+}

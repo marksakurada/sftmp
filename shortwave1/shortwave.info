@@ -1,0 +1,33 @@
+name        = Shortwave
+description = A theme based on the Radix theme, featuring the ability to customize fonts, logos and colors.
+screenshot  = screenshot.png
+core        = 7.x
+
+; Base - Radix
+base theme  = radix
+
+
+; Regions
+regions[branding_right] = 'Branding Right'
+regions[menu_social] = 'Social Menu'
+regions[navigation] = 'Navigation'
+regions[navigation_right] = 'Navigation Right'
+regions[alert] = 'Alert'
+regions[top_ads] = 'Top Ads'
+regions[content] = 'Main Region'
+regions[bottom_ads] = 'Bottom Ads'
+regions[footer_first] = 'Footer First'
+regions[footer_second] = 'Footer Second'
+
+; Panels
+plugins[panels][layouts] = panels/layouts
+plugins[panels][styles] = panels/styles
+
+; CSS - General
+stylesheets[all][]     = assets/stylesheets/screen.css
+
+; Javascript
+scripts[] = assets/javascripts/jquery.cycle2.js
+scripts[] = assets/javascripts/jquery.cycle2.carousel.js
+scripts[] = assets/javascripts/tinynav.js
+scripts[] = assets/javascripts/script.js

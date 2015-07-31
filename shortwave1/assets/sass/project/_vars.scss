@@ -1,0 +1,38 @@
+/*
+** Global Variables Are Set Here
+*/
+
+// Fonts import
+@import url(http://fonts.googleapis.com/css?family=Lobster|Enriqueta:400,700|Roboto+Condensed:300italic,300|Francois+One);
+
+$font-primary: 'Roboto Condensed', sans-serif;
+$font-secondary: 'Lobster', cursive;
+$font-tertiary: 'Francois One', sans-serif;
+$font-quaternary: 'Enriqueta', serif;
+
+$body-font: $font-primary;
+$body-font-size: 16px;
+
+// New colors.
+$color--blue: #0090C5;
+$color--lt-blue: #03B8FF;
+$color--lt-grey: #E0E0E0;
+$color--grey: #595959;
+$color--off-white: #FBFBFE;
+$color--green: #8CC940;
+$color--lt-green: #ACE567;
+
+// Site-Wide Colors --> these variables effect the entire theme
+$color-sw-primary: $color--blue; // Dark
+$color-sw-secondary: $color--lt-blue; // Light
+$color-sw-tertiary: $color--green; // Dark
+$color-sw-quaternary: $color--lt-green; // Light
+
+
+$global-wrapper-background: #f8fafa;
+
+// Media Query vars
+$small-up: 480px;
+$medium-up: 767px;
+$large-up: 992px;
+$xlarge-up: 1200px;

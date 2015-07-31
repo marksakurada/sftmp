@@ -1,0 +1,11 @@
+{
+  "currentPage-Station": true,
+  "bodyClass": "hero-overlap",
+  "title": "Inside Sidebar Right with Tall Hero (Overlap)",
+  "fullHero": {
+    "title": "The Best Concerts In Seattle",
+    "subtitle": "Summer Series",
+    "size": "tall",
+    "position": "middle"
+  }
+}

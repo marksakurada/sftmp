@@ -1,0 +1,46 @@
+.header.header--homepage {
+
+  .Grid-cell {
+    box-sizing: border-box;
+    float: left;
+
+    &.lg-3of12 {
+      width: 25%;
+    }
+    &.lg-9of12 {
+      width: 75%;
+    }
+  }
+
+  .header-right {
+    .logo {
+      display: block;
+      margin: 15px;
+    }
+
+    .btn--grey {
+      margin-bottom: 10px;
+    }
+  }
+
+  .header-search-wrapper {
+    background-image: linear-gradient(#525252, #525252 50%, #434343 51%, #434343);
+    border-radius: 5px;
+    padding: 7px 5px 5px;
+    margin-bottom: 10px;
+
+    .search-field {
+      height: 30px;
+      line-height: 30px;
+    }
+  }
+
+  .header-social-wrapper {
+    text-align: center;
+
+    img {
+      display: inline-block;
+      padding-right: 3px;
+    }
+  }
+}

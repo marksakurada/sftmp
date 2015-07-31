@@ -1,0 +1,35 @@
+<div class="panel-pane pane-node-content cycle-slideshow-wrap" id="cycle2-slideshow">
+  <div class="pane-content">
+    <article class="node node-image-gallery clearfix" about="/content/example-gallery-node"
+             typeof="sioc:Item foaf:Document">
+      <div class="field field-name-field-image-upload field-type-image field-label-hidden">
+        <div class="field-items">
+          {{#gallerySlides}}
+            <div class="field-item">
+              <a href="{{ url }}">
+              <img typeof="foaf:Image" src="{{ img }}" />
+              {{#slideTitle}}
+                <div class="slide-hgroup">
+                  <h2>{{ slideTitle }}</h2>
+                  {{#slideSubline}}
+                    <h3>{{ slideSubline }}</h3>
+                  {{/slideSubline}}
+                </div>
+              {{/slideTitle}}
+              </a>
+            </div>
+          {{/gallerySlides}}
+        </div>
+      </div>
+      {{#galleryDescription}}
+        <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+          <div class="field-items">
+            <div class="field-item even" property="content:encoded">
+              {{{ galleryDescription }}}
+            </div>
+          </div>
+        </div>
+      {{/galleryDescription}}
+    </article>
+  </div>
+</div>

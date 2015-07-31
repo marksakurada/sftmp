@@ -1,0 +1,9 @@
+{
+  "showDay": "Monday",
+  "showItems": [
+    {
+      "showTime": "6AM to 10AM",
+      "showDesc": "Pepper in the Morning!"
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+.hidden {
+  display: none;
+}
+
+input {
+  border: 1px solid #BBB;
+  color: #333;
+  text-indent: 2px;
+  
+  &[type="radio"]{
+    display: inline-block;
+  }
+}
+
+textarea {
+  border: 1px solid #BBB;
+}
+
+p, ul, ol {
+  margin: 15px 0;
+}
+
+blockquote {
+  margin-left: 25px;
+  padding: 5px 20px 20px;
+}
+
+.field-container {
+  margin-bottom: 15px;
+}
+
+.clear {
+  clear: both;
+}
+
+.simple-social-share {
+  a:link, a:visited {
+    background: $color-sw-primary;
+    display: inline-block;
+    padding: 5px 7px 7px;
+    transition: all 0.2s ease-in-out;
+  } a:hover {
+    background: $color-sw-secondary;
+  }
+}
+
+.widget-linkList, .widget-latestContent {
+  ul {
+    list-style-type: none;
+    background: #FAFAFA;
+    padding: 10px 10px 1px;
+    margin: 0;
+
+    &:after {
+      content: "";
+      clear: both;
+      display: block;
+    }
+  }
+}
+
+.widget-latestContent {
+  ul.latest-content {
+    max-height: 203px;
+    overflow: auto;
+  }
+
+  &.widget-latestContent--tall {
+    max-height: 515px;
+    overflow: hidden;
+
+    @media (max-width: $medium-up) {
+      max-height: inherit;
+    }
+  }
+}
+
+ul.event-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  @media (max-width: $large-up) {
+    max-height: 120px;
+    overflow-y: scroll;
+  }
+  @media (max-width: $medium-up) {
+    max-height: inherit;
+    overflow-y: visible;
+  }
+
+  &.event-list--tall {
+    max-height: inherit;
+    overflow: visible;
+  }
+}
+
+.node--listing {
+  margin-bottom: 10px;
+
+  @media (max-width: $xlarge-up) {
+    margin-bottom: 11px;
+  }
+
+  a {
+    color: #000;
+    display: block;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      color: #006b92;
+    }
+  }
+
+  img {
+    width: 15.36%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+
+    @media (max-width: $xlarge-up) {
+      width: 13%;
+    }
+
+    &+span {
+      padding-left: 10px;
+    }
+  }
+  span {
+    width: 84.64%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    line-height: 1.25;
+
+    @media (max-width: $xlarge-up) {
+      width: 87%;
+      font-size: 14px;
+    }
+  }
+
+  &.node--listing--event {
+    color: #FFF;
+    border-bottom: 1px solid #FFF;
+    background: #E7E7E7;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 0;
+
+    &:hover {
+      opacity: 0.65;
+    }
+
+    .event-date {
+      color: #000;
+      display: inline-block;
+      font-size: 18px;
+      float: left;
+      padding: 10px 7px;
+      text-align: center;
+      width: 18.5%;
+      line-height: 1;
+
+      @media (max-width: $xlarge-up) {
+        font-size: 14px;
+        padding: 7px;
+      }
+      @media (max-width: $large-up) {
+        padding: 10px 7px;
+      }
+
+      span {
+        font-weight: bold;
+        display: block;
+        font-size: 24px;
+        padding: 0;
+        width: 100%;
+
+        @media (max-width: $xlarge-up) {
+          font-size: 20px;
+        }
+      }
+    }
+
+    .event-details {
+      background: #F5F4F4;
+      border-left: 1px solid #FFF;
+      color: #000;
+      float: right;
+      padding: 14px 15px 11px;
+      height: 68px;
+      width: 81.5%;
+
+      @media (max-width: $xlarge-up) {
+        padding: 9px 15px;
+        height: 53px;
+      }
+      @media (max-width: $large-up) {
+        padding: 12px 15px;
+        height: 60px;
+      }
+    }
+
+    h4 {
+      color: #000;
+      font-size: 18px;
+      margin: 0;
+      padding: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+      @media (max-width: $xlarge-up) {
+        font-size: 16px;
+      }
+    }
+
+    .event-location {
+      @media (max-width: $xlarge-up) {
+        font-size: 14px;
+      }
+    }
+
+    a {
+      color: #FFF;
+    }
+
+  }
+}
+
+.options ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#disqus_thread {
+  background: #FFF;
+  padding: 15px;
+
+  a {
+    color: $color-sw-tertiary;
+  }
+}
+
+a:hover, a:focus {
+  color: darken($color-sw-primary, 10%);
+}
+
+.block-blockify-blockify-tabs {
+  @include container();
+
+  ul.nav-tabs {
+    background: #fff;
+    border: 0;
+    margin: 0;
+
+    li {
+      a {
+        border: none;
+        border-radius: 0;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          color: #000;
+        }
+      }
+
+      &.active {
+        a {
+          background: #000;
+          border: none;
+          color: #FFF;
+        }
+      }
+    }
+  }
+}
+
+.block-workbench-block {
+  .workbench-info-block {
+    border-radius: 0;
+    border: 1px solid #FFEBC5;
+  }
+}
+
+.block-blockify-blockify-messages {
+  @include container();
+
+  .alert {
+    margin: 15px 0 0;
+  }
+}

@@ -1,0 +1,9 @@
+<div class="content-listing-item-simple">
+  <hr />
+  <h3><a href="{{ url }}">{{ title }}</a></h3>
+  {{# blogAuthor}}<p class="content-author">{{# show}}<a href="">{{show}}</a> <span>|</span> {{/ show}} By {{ blogAuthor }}</p>{{/ blogAuthor}}
+  <div class="content-listing-desc">
+    {{{ desc }}}
+  </div>
+  {{> atoms-post-read-more}}
+</div>

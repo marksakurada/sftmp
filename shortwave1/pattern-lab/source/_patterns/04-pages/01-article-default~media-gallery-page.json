@@ -1,0 +1,19 @@
+{
+  "currentPage-Read": false,
+  "currentPage-Watch": true,
+  "title": "Media Gallery Page",
+  "slideshow": true,
+  "gallerySlides": [
+    {"img": "../../../../assets/images/Delta.jpg"},
+    {"img": "../../../../assets/images/Delta-flipped.jpg"},
+    {"img": "../../../../assets/images/Delta-flipped2.jpg"},
+    {"img": "../../../../assets/images/Delta-flipped2.jpg"},
+    {"img": "../../../../assets/images/Delta-flipped.jpg"},
+    {"img": "../../../../assets/images/Delta-flipped2.jpg"},
+    {"img": "../../../../assets/images/Delta-flipped2.jpg"},
+    {"img": "../../../../assets/images/Delta-flipped3.jpg"}
+  ],
+  "carousel": true,
+  "galleryDescription": "<p>Lorem ipsum dolor sit amet, elit eripuit deseruisse an eam, eos an simul minimum. Te usu porro impedit suscipiantur. Ne probo graeco vel. Ei aeque placerat mei, ad per modo dicunt convenire, qui singulis postulant ei. Te pri dicat dicant eripuit, et nam vidit aeterno deleniti.</p>",
+  "topImg": false
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Article Default - Emergency",
+  "topImg": {
+    "src" : "../../../../assets/images/Delta.jpg",
+    "alt" : "2x2 Image Delta -- 780x515",
+    "caption": "Photo by Jannette Doe"
+  },
+  "emergency": true
+}

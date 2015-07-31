@@ -1,0 +1,12 @@
+{
+  "host": {
+    "thumb": "../../../../assets/images/gregr-thumb.jpg",
+    "name": "GregR",
+    "desc": "<p>Once upon a time, a beautiful woman saw some nerd at a baseball game solving a Rubik's cube. Astonished (and hopefully impressed), she snapped a photo and sent it to her coworker. He replied \"oh yeah, I know that guy. He does mornings at 1077 The End.\" That's me.</p>",
+    "links": [
+      {"link": "Facebook"},
+      {"link": "Twitter"},
+      {"link": "Email"}
+    ]
+  }
+}

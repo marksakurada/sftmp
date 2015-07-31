@@ -1,0 +1,71 @@
+/**
+ * @file
+ * Override theme css with theme settings.
+ *
+ * Available variables:
+ *
+ * [[navigation_font_url]]
+ * [[navigation_font_family]]
+ * [[navigation_color]]
+ * [[navigation_background_color]]
+ * [[navigation_hover_color]]
+ * [[navigation_background_hover_color]]
+ * [[sub_navigation_background_hover_color]]
+ * [[secondary_navigation_color]]
+ * [[link_color]]
+ * [[link_hover_color]]
+ * [[heading_color]]
+ * [[heading_font_url]]
+ * [[heading_font_family]]
+ * [[body_color]]
+ * [[body_background_color]]
+ * [[body_font_url]]
+ * [[body_font_family]]
+ */
+
+@import url("[[navigation_font_url]]");
+@import url("[[heading_font_url]]");
+@import url("[[body_font_url]]");
+
+a { color: [[link_color]]; }
+a:hover {color: [[link_hover_color]]; }
+h1, h2, h3, h4, h5, h6 {
+  color: [[heading_color]];
+  font-family: [[heading_font_family]];
+}
+body, p {
+  color: [[body_color]];
+  font-family: [[body_font_family]];
+}
+
+#globalWrapper {
+  background-color: [[body_background_color]];
+}
+.site-header-top-large { background-color: [[navigation_background_color]]; }
+
+.site-header-top-large .inner-header-bottom ul li a,
+.site-header-top-large .inner-header-bottom .header-social a {
+  color: [[navigation_color]];
+  font-family: [[navigation_font_family]];
+}
+
+.site-header-top-large .inner-header-bottom .top-nav li a:hover,
+.site-header-top-large .inner-header-bottom .block-menu-menu-tertiary .menu a:hover,
+.site-header-top-large .inner-header-bottom .top-nav li.sfHover > a,
+.site-header-top-large .inner-header-bottom .nav-search-mobile a:hover {
+  background-color: [[navigation_background_hover_color]];
+  color: [[navigation_hover_color]];
+}
+.site-header-top-large .inner-header-bottom .top-nav li.menuparent > ul {
+  background: [[navigation_background_hover_color]];
+  border-top-color: [[navigation_background_hover_color]];
+}
+.site-header-top-large .inner-header-bottom .top-nav li.menuparent > ul a:hover{
+  background: [[sub_navigation_background_hover_color]];
+}
+.site-header-top-large .inner-header-bottom .header-social a:hover {
+  background-color: [[social_navigation_background_hover_color]];
+}
+.block-menu-menu-secondary-menu ul.menu a {
+  color: [[secondary_navigation_color]];
+}

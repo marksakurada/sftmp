@@ -1,0 +1,45 @@
+/* line 3, ../../../sass/project/organisms/header-homepage.scss */
+.header.header--homepage .Grid-cell {
+  box-sizing: border-box;
+  float: left;
+}
+/* line 7, ../../../sass/project/organisms/header-homepage.scss */
+.header.header--homepage .Grid-cell.lg-3of12 {
+  width: 25%;
+}
+/* line 10, ../../../sass/project/organisms/header-homepage.scss */
+.header.header--homepage .Grid-cell.lg-9of12 {
+  width: 75%;
+}
+/* line 16, ../../../sass/project/organisms/header-homepage.scss */
+.header.header--homepage .header-right .logo {
+  display: block;
+  margin: 15px;
+}
+/* line 21, ../../../sass/project/organisms/header-homepage.scss */
+.header.header--homepage .header-right .btn--grey {
+  margin-bottom: 10px;
+}
+/* line 26, ../../../sass/project/organisms/header-homepage.scss */
+.header.header--homepage .header-search-wrapper {
+  background-image: linear-gradient(#525252, #525252 50%, #434343 51%, #434343);
+  border-radius: 5px;
+  padding: 7px 5px 5px;
+  margin-bottom: 10px;
+}
+/* line 32, ../../../sass/project/organisms/header-homepage.scss */
+.header.header--homepage .header-search-wrapper .search-field {
+  height: 30px;
+  line-height: 30px;
+}
+/* line 38, ../../../sass/project/organisms/header-homepage.scss */
+.header.header--homepage .header-social-wrapper {
+  text-align: center;
+}
+/* line 41, ../../../sass/project/organisms/header-homepage.scss */
+.header.header--homepage .header-social-wrapper img {
+  display: inline-block;
+  padding-right: 3px;
+}
+
+/*# sourceMappingURL=header-homepage.css.map */

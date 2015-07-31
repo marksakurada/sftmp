@@ -1,0 +1,85 @@
+/*------------------------------------*\
+    Button specific styles
+\*------------------------------------*/
+
+/*
+  Stylesheet all about button styles.
+ */
+
+ .btn {
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', 'LeagueGothicRegular';
+  padding: 7px 10px;
+  transition: all 0.2s ease-in-out;
+
+  &.btn--fullWidth {
+    display: block;
+    width: 100%;
+  }
+
+  &.btn--small {
+    font-size: 14px;
+    padding: 4px 5px;
+  }
+
+  &.btn--large {
+    font-size: 22px;
+    padding: 15px 25px;
+  }
+
+  &.btn--xlarge {
+    font-size: 28px;
+    padding: 25px 35px;
+  }
+
+  &.btn--error {
+    background: #CC0000;
+    border: 2px solid darken(#CC0000, 5%);
+    color: #FFF;
+    text-shadow: 0 0 3px #000;
+
+    &:hover {
+      background: tint(#CC0000, 30%);
+    }
+  }
+
+  &.btn--warning {
+    background: #E27922;
+    border: 2px solid darken(#E27922, 5%);
+    color: #FFF;
+    text-shadow: 0 0 3px #000;
+
+    &:hover {
+      background: tint(#E27922, 30%);
+    }
+  }
+
+  &.btn--status {
+    background: #21B639;
+    border: 2px solid darken(#21B639, 5%);
+    color: #FFF;
+    text-shadow: 0 0 3px #000;
+
+    &:hover {
+      background: tint(#21B639, 30%);
+    }
+  }
+
+  &.btn--primary {
+    background: $color-sw-primary;
+    border: 2px solid darken($color-sw-primary, 5%);
+    color: #FFF;
+    text-shadow: 0 0 3px #000;
+
+    &:hover {
+      background: tint($color-sw-primary, 30%);
+    }
+  }
+
+  img {
+    padding: 0 5px;
+    vertical-align: middle;
+  }
+}

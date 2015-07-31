@@ -1,0 +1,89 @@
+{
+  "bodyClass": "hero-overlap",
+  "currentPage-Shows": true,
+  "headerSmall": false,
+  "headerLarge": true,
+  "title": "Subtronic End",
+  "subline": "Saturdays 10pm - 1am",
+  "fullHero": {
+    "title": false,
+    "subtitle": false,
+    "size": "tall",
+    "position": "middle"
+  },
+  "placeholderContent": "<p>Subtronic End is 3 hours of the best electronic dance music, featuring tracks from today’s superstar DJ’s like Tiesto, Avicii, Hardwell, and Calvin Harris, legends of the genre, and the new artists you’ll want to discover. The music sets are mixed in studio by 107.7 The End’s own Zach, who’s been DJing in clubs internationally for years, including residencies in Sevilla Spain, and Cairo Egypt. Subtronic End is a new soundtrack for Saturday night!</p><h3>Contact the show</h3><p>Studio 206-421-1077 • Text # 91077</p>",
+  "youTube": false,
+  "hosts": [
+    {
+      "host": {
+        "thumb": "../../../../assets/images/gregr-thumb.jpg",
+        "name": "GregR",
+        "desc": "<p>Once upon a time, a beautiful woman saw some nerd at a baseball game solving a Rubik's cube. Astonished (and hopefully impressed), she snapped a photo and sent it to her coworker. He replied \"oh yeah, I know that guy. He does mornings at 1077 The End.\" That's me.</p>",
+        "links": [
+          {"link": "Facebook"},
+          {"link": "Twitter"},
+          {"link": "Email"}
+        ]
+      }
+    },
+    {
+      "host": {
+        "thumb": "../../../../assets/images/pepper-thumb.jpg",
+        "name": "Pepper",
+        "desc": "<p>I'm into Bigfoot, flannel, craft beer, sad bastard music, &amp; all things local. The X-Files is my favorite TV show. Fiona Apple is my queen, whom I worship regularly. My main hobby outside of work is knitting because I'm secretly a 60 year old woman. Oh, and GO HAWKS!</p>",
+        "links": [
+          {"link": "Twitter"},
+          {"link": "Email"}
+        ]
+      }
+    },
+    {
+      "host": {
+        "thumb": "../../../../assets/images/manley-thumb.jpg",
+        "name": "Manley",
+        "desc": "<p>I am from Wisconsin, so put cheese on anything and I will like it. Music is everything. Music with cheese on it is more than everything. Oh and I think Seattle is one of the coolest cities ever and consider it a dream come true to work at The End!</p>",
+        "links": [
+          {"link": "Email"}
+        ]
+      }
+    }
+  ],
+  "contentListingItems": [
+    {
+      "url": "#",
+      "img": "../../../../assets/images/Delta.jpg",
+      "itemType": "Audio",
+      "title": "New Music Discovery: Mumford and Sons \"Believe\"",
+      "desc": "Are you ready for a brand new sound from Mumford and Sons? The dudes have ditched their banjos and kick drums for a bigger, more electric sound on their new record.",
+      "blogAuthor": "Greg R",
+      "show": "End Unplugged"
+    },
+    {
+      "url": "#",
+      "img": "../../../../assets/images/Delta-flipped.jpg",
+      "itemType": "Gallery",
+      "title": "Nerd Talk Is Ready For Pancake Robots",
+      "desc": "NERD TALK 1. apple watch event at 10am 2. pancake bot making life tastier. 3. Solar impulse 2 round the world flight.",
+      "blogAuthor": "Pepper",
+      "show": "Locals Only"
+    },
+    {
+      "url": "#",
+      "img": "../../../../assets/images/Delta-flipped2.jpg",
+      "itemType": "Blog",
+      "title": "New Music Discovery: Stream Chastity Belt's new record!",
+      "desc": "For March, we have Chastity Belt as our Locals Only Artist of the Month.",
+      "blogAuthor": "Zack",
+      "show": "Subtronic End"
+    },
+    {
+      "url": "#",
+      "img": "../../../../assets/images/Delta-flipped3.jpg",
+      "itemType": "Event",
+      "title": "Nerd Talk Is Ready For Pancake Robots",
+      "desc": "NERD TALK 1. apple watch event at 10am 2. pancake bot making life tastier. 3. Solar impulse 2 round the world flight.",
+      "blogAuthor": "Greg R",
+      "show": "End Unplugged"
+    }
+  ]
+}

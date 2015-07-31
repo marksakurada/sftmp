@@ -1,0 +1,54 @@
+{
+  "gallerySlides": [
+    {
+      "img": "../../../../assets/images/Delta.jpg",
+      "slideTitle": "The New Black Keys are here!",
+      "slideSubline": "Find out how you and your friends can hear it first",
+      "url": "http://google.com"
+    },
+    {
+      "img": "../../../../assets/images/Delta-flipped.jpg",
+      "slideTitle": "Get ready for Foo Fighters! Have your tickets?"
+    },
+    {
+      "img": "../../../../assets/images/Delta-flipped2.jpg"
+    },
+    {
+      "img": "../../../../assets/images/Delta-flipped2.jpg"
+    },
+    {
+      "img": "../../../../assets/images/Delta-flipped2.jpg"
+    },
+    {
+      "img": "../../../../assets/images/Delta-flipped3.jpg",
+      "slideTitle": "Listen to the 8 @ 8 for your chance to win!",
+      "slideSubline": "The lucky winners will fly first class to see Muse"
+    },
+    {
+      "img": "../../../../assets/images/Delta-flipped3.jpg",
+      "slideTitle": "Listen to the 8 @ 8 for your chance to win!",
+      "slideSubline": "The lucky winners will fly first class to see Muse"
+    },
+    {
+      "img": "../../../../assets/images/Delta-flipped3.jpg",
+      "slideTitle": "Listen to the 8 @ 8 for your chance to win!",
+      "slideSubline": "The lucky winners will fly first class to see Muse"
+    },
+    {
+      "img": "../../../../assets/images/Delta-flipped3.jpg",
+      "slideTitle": "Listen to the 8 @ 8 for your chance to win!",
+      "slideSubline": "The lucky winners will fly first class to see Muse"
+    },
+    {
+      "img": "../../../../assets/images/Delta-flipped3.jpg",
+      "slideTitle": "Listen to the 8 @ 8 for your chance to win!",
+      "slideSubline": "The lucky winners will fly first class to see Muse"
+    },
+    {
+      "img": "../../../../assets/images/Delta-flipped3.jpg",
+      "slideTitle": "Listen to the 8 @ 8 for your chance to win!",
+      "slideSubline": "The lucky winners will fly first class to see Muse"
+    }
+  ],
+  "galleryDescription": "<p>Lorem ipsum dolor sit amet, elit eripuit deseruisse an eam, eos an simul minimum. Te usu porro impedit suscipiantur. Ne probo graeco vel. Ei aeque placerat mei, ad per modo dicunt convenire, qui singulis postulant ei. Te pri dicat dicant eripuit, et nam vidit aeterno deleniti.</p>"
+}

@@ -1,0 +1,19 @@
+<div class="content-listing-item">
+  <div class="content-listing-left">
+    <div class="content-listing-left-inner">
+      <a href="{{ url }}"><img src="{{ img }}" alt="{{ title }}" /></a>
+    </div>
+  </div>
+  <div class="content-listing-right">
+    {{#itemType}}
+      <div class="listing-item-type">{{ itemType }}</div>
+    {{/itemType}}
+    <h3><a href="{{ url }}">{{ title }}</a></h3>
+    {{# blogAuthor}}<p class="content-author">{{# show}}<a href="">{{show}}</a> <span>|</span> {{/ show}} By {{ blogAuthor }}</p>{{/ blogAuthor}}
+    <div class="content-listing-desc">
+      {{{ desc }}}
+    </div>
+    {{> atoms-post-read-more}}
+  </div>
+  <div class="clear"></div>
+</div>

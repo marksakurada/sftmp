@@ -1,0 +1,129 @@
+
+.widget--c2aBox {
+  background: #000;
+  position: relative;
+  display: inline-block;
+  height: 250px;
+  overflow: hidden;
+  vertical-align: top;
+
+  @media (max-width: $xlarge-up) {
+    height: 205px;
+  }
+  @media (max-width: $large-up) {
+    height: 155px;
+  }
+  @media (max-width: $medium-up) {
+    height: inherit;
+  }
+
+  .node--action_2_3_tall &,
+  .node--action_1_3_tall &,
+  &.widget--c2aBoxTall {
+    height: 515px;
+
+    @media (max-width: $xlarge-up) {
+      height: 425px;
+    }
+    @media (max-width: $large-up) {
+      height: 325px;
+    }
+    @media (max-width: $medium-up) {
+      height: inherit;
+    }
+  }
+
+  .widget--c2aBox-image {
+    max-width: 100%;
+    vertical-align: top;
+  }
+
+  .widget--c2aBox-meta {
+    color: #FFF;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    .node-ent-webform &,
+    .node-panopoly-page &,
+    .node-panopoly-landing-page & {
+      display: none;
+    }
+  }
+
+  .widget--c2aBox-meta-type {
+    font-family: $font-tertiary;
+    padding: 9px 15px;
+    background: #000;
+    display: inline-block;
+    float: right;
+    text-shadow: 0 0 3px darken($color-sw-tertiary, 30%);
+    color: #FFF;
+    font-size: 16px;
+    text-transform: uppercase;
+
+    @media (max-width: $xlarge-up) {
+      font-size: 14px;
+    }
+  }
+
+  .widget--c2aBox-meta-social {
+    margin-top: 10px;
+    height: 18px;
+    padding: 3px 0 0 25px;
+    display: none; // Not implemented
+
+    &.widget--c2aBox-meta-social--fb {
+      background: url("../../assets/images/trans-facebook.png") center left no-repeat;
+    }
+    &.widget--c2aBox-meta-social--tw {
+      background: url("../../assets/images/trans-twitter.png") center left no-repeat;
+    }
+  }
+
+  .widget--c2aBox-caption {
+    @extend %caption;
+    font-size: 20px;
+    line-height: 1;
+    padding: 20px 15px 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-transform: uppercase;
+    @media (max-width: $large-up) {
+      @media (max-width: $medium-up) {
+        font-size: 28px;
+      }
+      @media (max-width: $small-up) {
+        font-size: 20px;
+      }
+      @media (max-width: 400px) {
+        font-size: 18px;
+      }
+    }
+    .lte9 & {
+      background: url("../../assets/images/ie-grad.png") bottom center repeat-x;
+    }
+  }
+  .widget--c2aBox-caption-subtitle {
+    color: tint($color-sw-primary, 75%);
+    font-family: $body-font;
+    font-size: 16px;
+    margin-top: 10px;
+
+    @media (max-width: $large-up) {
+      @media (max-width: $medium-up) {
+        font-size: 20px;
+      }
+      @media (max-width: $small-up) {
+        font-size: 16px;
+      }
+      @media (max-width: 400px) {
+        font-size: 14px;
+      }
+    }
+  }
+
+
+}

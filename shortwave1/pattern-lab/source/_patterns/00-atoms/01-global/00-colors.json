@@ -1,0 +1,32 @@
+{
+  "colors": [
+    {
+      "name": "$color--blue",
+      "value": "#0090C5"
+    },
+    {
+      "name": "$color--lt-blue",
+      "value": "#03B8FF"
+    },
+    {
+      "name": "$color--lt-grey",
+      "value": "#E0E0E0"
+    },
+    {
+      "name": "$color--grey",
+      "value": "#595959"
+    },
+    {
+      "name": "$color--off-white",
+      "value": "#FBFBFE"
+    },
+    {
+      "name": "$color--green",
+      "value": "#8CC940"
+    },
+    {
+      "name": "$color--lt-green",
+      "value": "#ACE567"
+    }
+  ]
+}

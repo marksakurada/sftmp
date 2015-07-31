@@ -1,0 +1,40 @@
+.a-searchBar {
+  .search-field {
+    box-sizing: border-box;
+    border: 1px solid $color-sw-tertiary;
+    color: darken($color-sw-primary, 10%);
+    width: 85%;
+    height: 40px;
+    text-indent: 10px;
+    font-size: 18px;
+
+    @media (max-width: 600px){
+      width: 75%;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .search-submit {
+    background: $color-sw-tertiary;
+    border: 1px solid $color-sw-tertiary;
+    color: #FFF;
+    float: right;
+    height: 40px;
+    text-shadow: 0 0 3px darken($color-sw-tertiary, 30%);
+    width: 15%;
+
+    @media (max-width: 600px){
+      width: 25%;
+    }
+  }
+
+  &.a-searchBar--full {
+    .search-field {
+      float: none;
+      width: 100%;
+    }
+  }
+}

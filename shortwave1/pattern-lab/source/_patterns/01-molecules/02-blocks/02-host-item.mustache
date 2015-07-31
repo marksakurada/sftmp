@@ -1,0 +1,13 @@
+<div class="host-item">
+  <img src="{{ host.thumb }}" class="host-thumb" alt="{{ host.name }}" />
+  <div class="host-item-inner host-item-right">
+    <h4>{{ host.name }}</h4>
+    {{{ host.desc }}}
+    <ul class="contact-host">
+      {{#host.links}}
+        <li><a href="#">{{ link }}</a></li>
+      {{/host.links}}
+    </ul>
+  </div>
+  <div class="clear"></div>
+</div>

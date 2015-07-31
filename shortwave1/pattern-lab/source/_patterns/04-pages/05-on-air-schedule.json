@@ -1,0 +1,233 @@
+{
+  "bodyClass": "no-hero-overlap",
+  "currentPage-Shows": true,
+  "headerSmall": false,
+  "headerLarge": true,
+  "title": "On Air Schedule",
+  "subline": "1077 The End Programming",
+  "fullHero": {
+    "title": false,
+    "subtitle": false,
+    "size": "default",
+    "position": "middle"
+  },
+  "placeholderContent": "",
+  "featuredShows": [
+    {
+      "showTitles": "Gimme 5 @ 5",
+      "showDesc": "Weekdays<br />5PM to 6PM<br /><br /><u>Text</u>: 91077<br><u>Phone</u>: 206-421-1077",
+      "mainDesc": "Listen weeknights as we tally up the Top 5 requests of the day and play them back starting at 10p."
+    },
+    {
+      "showTitles": "Subtronic End",
+      "showDesc": "Saturdays<br />10PM to 1AM<br /><br />Subtronic End is 2 hours of the best electronic dance music",
+      "mainDesc": "Featuring tracks from today’s superstar DJ’s like Tiesto, Avicii, Hardwell, and Calvin Harris, legends of the genre, and the new artists you’ll want to discover. The music sets are mixed in studio by 107.7 The End’s own Zach, who’s been DJing in clubs internationally for years, including residencies in Sevilla Spain, and Cairo Egypt. Subtronic End is a new soundtrack for Saturday night!"
+    },
+    {
+      "showTitles": "Conversations",
+      "showDesc": "Sundays<br />7AM to 8AM",
+      "mainDesc": "'Conversations' is a public affairs program that looks at issues and how they affect individuals, families, our local communities and the nation. Each show explores an issue with newsmakers, pundits, authors, doctors, educators and others who express their views on these topics. Topics covered include the economy, education, the environment, government, terrorism, youth and family, health, discrimination, poverty, aging issues and spirituality."
+    },
+    {
+      "showTitles": "Resurrection Sunday",
+      "showDesc": "Sundays<br />8AM to 10AM",
+      "mainDesc": "Sundays @ 8am, it’s a flashback to the music that started it all!"
+    },
+    {
+      "showTitles": "End Unplugged",
+      "showDesc": "Sundays<br />10AM to 12PM",
+      "mainDesc": "For over 17 years The End has compiled a massive library of End Sessions, In-Studio Performances and other acoustic gems from your favorite End artists. Seems like pretty good stuff for a radio show… huh? Every Sunday morning from 10am-Noon check out The End Unplugged. Exclusive, stripped down versions of your favorite end songs and artists. From Oasis to Paramore, Social Distortion to The White Stripes and everyone in between. If you miss it/oversleep, don't worry, The End Unplugged will be on demand at 1077theend.com."
+    },
+    {
+      "showTitles": "Locals Only",
+      "showDesc": "Sundays<br />8PM to 10PM<br /><br />Tune in to hear the best from the Pacific Northwest",
+      "mainDesc": "Sunday nights on Locals Only! It's the weekly local music show on 107.7 the End that airs every Sunday night from 8pm-10pm. It's hosted by Pepper and Steven Graham from the Everett Music Initiative. Want to get your band on Locals Only, Send your music to localsonly@1077theend.com."
+    },
+    {
+      "showTitles": "Passport Approved",
+      "showDesc": "Sundays<br />10PM to 12AM",
+      "mainDesc": "Two hours of the newest music from all over the world."
+    }
+  ],
+  "showSchedule": [
+    {
+      "showDay": "Monday",
+      "showItems": [
+        {
+          "showTime": "6AM to 10AM",
+          "showDesc": "GregR"
+        },
+        {
+          "showTime": "10AM to 3PM",
+          "showDesc": "Pepper"
+        },
+        {
+          "showTime": "3PM to 7PM",
+          "showDesc": "Manley"
+        },
+        {
+          "showTime": "5PM to 6PM",
+          "showDesc": "Gimmie 5 @ 5"
+        },
+        {
+          "showTime": "7PM to 12AM",
+          "showDesc": "Zach"
+        }
+      ]
+    },
+    {
+      "showDay": "Tuesday",
+      "showItems": [
+        {
+          "showTime": "6AM to 10AM",
+          "showDesc": "GregR"
+        },
+        {
+          "showTime": "10AM to 3PM",
+          "showDesc": "Pepper"
+        },
+        {
+          "showTime": "3PM to 7PM",
+          "showDesc": "Manley"
+        },
+        {
+          "showTime": "5PM to 6PM",
+          "showDesc": "Gimmie 5 @ 5"
+        },
+        {
+          "showTime": "7PM to 12AM",
+          "showDesc": "Zach"
+        }
+      ]
+    },
+    {
+      "showDay": "Wednesday",
+      "showItems": [
+        {
+          "showTime": "6AM to 10AM",
+          "showDesc": "GregR"
+        },
+        {
+          "showTime": "10AM to 3PM",
+          "showDesc": "Pepper"
+        },
+        {
+          "showTime": "3PM to 7PM",
+          "showDesc": "Manley"
+        },
+        {
+          "showTime": "5PM to 6PM",
+          "showDesc": "Gimmie 5 @ 5"
+        },
+        {
+          "showTime": "7PM to 12AM",
+          "showDesc": "Zach"
+        }
+      ]
+    },
+    {
+      "showDay": "Thursday",
+      "showItems": [
+        {
+          "showTime": "6AM to 10AM",
+          "showDesc": "GregR"
+        },
+        {
+          "showTime": "10AM to 3PM",
+          "showDesc": "Pepper"
+        },
+        {
+          "showTime": "3PM to 7PM",
+          "showDesc": "Manley"
+        },
+        {
+          "showTime": "5PM to 6PM",
+          "showDesc": "Gimmie 5 @ 5"
+        },
+        {
+          "showTime": "7PM to 12AM",
+          "showDesc": "Zach"
+        }
+      ]
+    },
+    {
+      "showDay": "Friday",
+      "showItems": [
+        {
+          "showTime": "6AM to 10AM",
+          "showDesc": "GregR"
+        },
+        {
+          "showTime": "10AM to 3PM",
+          "showDesc": "Pepper"
+        },
+        {
+          "showTime": "3PM to 7PM",
+          "showDesc": "Manley"
+        },
+        {
+          "showTime": "5PM to 6PM",
+          "showDesc": "Gimmie 5 @ 5"
+        },
+        {
+          "showTime": "7PM to 12AM",
+          "showDesc": "Zach"
+        }
+      ]
+    },
+    {
+      "showDay": "Saturday",
+      "showItems": [
+        {
+          "showTime": "12AM to 11PM",
+          "showDesc": "End Weekends"
+        },
+        {
+          "showTime": "7PM to 10PM",
+          "showDesc": "Cody"
+        },
+        {
+          "showTime": "10PM to 1AM",
+          "showDesc": "Subtronic End"
+        }
+      ]
+    },
+    {
+      "showDay": "Sunday",
+      "showItems": [
+        {
+          "showTime": "12AM to 6AM",
+          "showDesc": "General Programming"
+        },
+        {
+          "showTime": "7AM to 8AM",
+          "showDesc": "Conversations"
+        },
+        {
+          "showTime": "8AM to 10AM",
+          "showDesc": "Resurrection Sunday"
+        },
+        {
+          "showTime": "10AM to 12PM",
+          "showDesc": "End Unplugged"
+        },
+        {
+          "showTime": "12PM to 9PM",
+          "showDesc": "General Programming"
+        },
+        {
+          "showTime": "12PM to 6PM",
+          "showDesc": "Cody"
+        },
+        {
+          "showTime": "8PM to 10PM",
+          "showDesc": "Locals Only"
+        },
+        {
+          "showTime": "10PM to 12AM",
+          "showDesc": "Passport Approved"
+        }
+      ]
+    }
+  ]
+}

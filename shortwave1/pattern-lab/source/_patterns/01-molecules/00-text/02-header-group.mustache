@@ -1,0 +1,18 @@
+<div class="header-group">
+  {{#blogPostInfo}}
+    05.07.2015
+  {{/blogPostInfo}}
+  <h1 class="title" id="page-title">{{ title }}</h1>
+
+  <div class="contextual-links-region panel-pane pane-entity-field pane-node-field-subtitle">
+    <div class="field field-name-field-subtitle field-type-text field-label-hidden">
+      <div class="field-items">
+        <div class="field-item even">{{ subline }}</div>
+      </div>
+    </div>
+  </div>
+
+  {{#blogPostInfo}}
+    {{> atoms-post-info}}
+  {{/blogPostInfo}}
+</div>

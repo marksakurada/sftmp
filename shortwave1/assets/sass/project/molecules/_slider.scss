@@ -1,0 +1,195 @@
+#cycle2-slideshow {
+  margin-bottom: 0;
+}
+#cycle2-slideshow .field-name-field-image-upload, .cycle-carousel-wrapper {
+  margin: 0 auto;
+  max-width: 780px; // corresponds with the widest image allowed (Beta & Delta)
+
+  &+.field-name-body.field-type-text-with-summary {
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 780px;
+    background: #EEEEEE;
+    border: 1px solid #C8C8C8;
+  }
+}
+
+.cycle-slideshow-wrap {
+  .entityqueue-slideshow.no-thumbnails & {
+    display: none;
+  }
+}
+
+#cycle2-slideshow .field-name-field-image-upload {
+  background: #000;
+
+  .homepage & {
+    height: 515px;
+
+    @media (max-width: $xlarge-up) {
+      height: 425px;
+      overflow: hidden;
+    }
+    @media (max-width: $large-up) {
+      height: 325px;
+    }
+    @media (max-width: $medium-up) {
+      height: inherit;
+    }
+  }
+
+  .cycle-button {
+    background: #000;
+    bottom: 45%;
+    color: #FFF;
+    cursor: pointer;
+    display: block;
+    font-size: 70px;
+    line-height: 1;
+    padding: 0px 15px 7px;
+    opacity: 0.4;
+    z-index: 999;
+    position: absolute;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+    @media (max-width: $large-up) {
+      font-size: 45px;
+      padding: 0px 7px 7px 10px;
+    }
+    @media (max-width: $medium-up) {
+      font-size: 70px;
+      padding: 0px 15px 7px;
+    }
+    @media (max-width: 640px) {
+      font-size: 45px;
+    }
+    @media (max-width: 500px) {
+      bottom: 42%
+    }
+    @media (max-width: 420px) {
+      bottom: 40%;
+      font-size: 35px;
+      padding: 0 10px 5px;
+    }
+
+    &:hover, &:active {
+      background: #000;
+      opacity: 1;
+      transition: all 0.2s ease-in-out;
+    }
+
+    &.cycle-top-prev {
+      left: 0;
+
+      span:before {
+        content: "\2039";
+      }
+    }
+    &.cycle-top-next {
+      right: 0;
+
+      span:after {
+        content: "\203A";
+      }
+    }
+  }
+
+  .field-item {
+    position: relative;
+
+    img {
+      width: 100%;
+    }
+
+    .slide-hgroup {
+      @extend %caption;
+      color: #FFF;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 25px 25px 15px;
+      width: 100%;
+
+      @media (max-width: $large-up) {
+        padding: 25px 60px 15px;
+      }
+
+      .lte9 & {
+        background: url("../../assets/images/ie-grad-slider.png") bottom center repeat-x;
+      }
+
+      h2 {
+        color: #FFF;
+        font-size: 36px;
+
+        @media (max-width: 600px) {
+          font-size: 30px;
+        }
+        @media (max-width: 400px) {
+          font-size: 24px;
+        }
+
+        & + h3 {
+          margin-top: 0;
+        }
+      }
+      h3 {
+        color: tint($color-sw-primary, 75%);
+        font-family: $body-font;
+
+        @media (max-width: 600px) {
+          font-size: 18px;
+        }
+        @media (max-width: 400px) {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  & > .field-items .field-item {
+    visibility: hidden;
+  }
+}
+
+.cycle-carousel-wrap {
+  margin: 0px;
+  padding: 0px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  white-space: nowrap;
+}
+
+.cycle-carousel-wrapper {
+  background: #000;
+  border-top: 5px solid #000;
+
+  img {
+    cursor: pointer;
+    opacity: 0.55 !important; // Needed to fix responsive bug in cycle2
+    border-bottom: 7px solid #000;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      opacity: 1 !important; // Needed to fix responsive bug in cycle2
+    }
+    &.cycle-slide-active {
+      opacity: 1 !important; // Needed to fix responsive bug in cycle2
+      border-bottom: 7px solid $color-sw-primary;
+    }
+  }
+}
+.cycle-slideshow__description {
+  padding: 15px;
+  margin: 0 auto 15px;
+  max-width: 780px;
+  background: #EEEEEE;
+  border: 1px solid #C8C8C8;
+  &.pane-entity-field {
+    margin-bottom: 15px;
+  }
+}

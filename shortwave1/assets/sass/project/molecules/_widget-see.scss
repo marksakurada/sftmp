@@ -1,0 +1,35 @@
+
+
+.see-widget {
+
+}
+.see-widget-regui {
+  a.see-action,
+  a.see-user {
+    text-decoration: none;
+  }
+}
+.see-action {
+  @extend .btn;
+  background: #C0C0C0;
+  text-decoration: none;
+
+  .fa-sign-in {
+    display: none;
+  }
+}
+#see-overlay-modal {
+  &.regui {
+    div.see-header {
+      color: #000;
+      height: auto;
+
+      i {
+        color: #000;
+      }
+    }
+  }
+}
+#see-overlay .see-wrapper span.see-x {
+  color: #000;
+}

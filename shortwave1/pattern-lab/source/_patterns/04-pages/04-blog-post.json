@@ -1,0 +1,47 @@
+{
+  "currentPage-Read": true,
+  "title": "Locals Only Artist of the Month: ODESZA",
+  "subline": "Seattle has long been a frontier town that attracts musicians who want to invent and reinvent",
+  "blog": "Locals Only",
+  "blogPostInfo":true,
+  "headerSmall": false,
+  "headerLarge": true,
+  "topImg": {
+    "src": "../../../../assets/images/odesza.jpg"
+  },
+  "placeholderContent": "<p>Seattle has long been a frontier town that attracts musicians who want to invent and reinvent – from Jimi Hendrix to Kurt Cobain to the next unnamed musical star. While the sound may change from decade to decade, the Northwest’s music scene is as vibrant as ever. And here at The End we feel it’s important to help put our homegrown talent in the forefront by giving you a taste of our cities musical richness.</p><h2>BIO</h2><p>Harrison Mills (aka CatacombKid) and Clayton Knight (aka BeachesBeaches) began recording together after meeting at Western Washington University. There was instant chemistry, and the pair worked prolifically, quickly carving out a distinctive, heady sound: glitched-out vocals, soaring, visceral melody and ear-gripping drums.</p><p>Relentless touring followed, including dates with Emancipator and numerous festival performances including Sasquatch Music Festival and Lightning In A Bottle. Thrown in at the deep end, ODESZA quickly honed a live craft to match that of their recordings.</p><p>Summer 2014 saw ODESZA visit Australia to play a series of live dates, before heading back to North America for festivals, and to polish up and master their now hotly anticipated sophomore album.</p><p>Released September 9th 2014,In Returnhas more than just delivered on the promise of ODESZA’s previous work. A record with a precocious maturity and coherence, it’s a start-to-finish stunner of pop-infused, electronic wonder, littered with infectious hooks and potent atmosphere. Vocal performances from Zyra, Py and Shy Girls accompany that of Madelyn Grant on “Sun Models,” expertly worked into ODESZA’s trademark, mood-altering uplift.</p>",
+  "youTube": {
+    "title": "KNDD - ODESZA Featured Artist from Paris",
+    "videoId": "Qqv0pt84Ff0"
+  },
+  "link-list-default": {
+    "listTitle": "Categories",
+    "items": [
+      {
+        "title": "New Music Discovery",
+        "url": "#"
+      },
+      {
+        "title": "EndSessions",
+        "url": "#"
+      },
+      {
+        "title": "Interview",
+        "url": "#"
+      },
+      {
+        "title": "Locals Only",
+        "url": "#"
+      },
+      {
+        "title": "Local",
+        "url": "#"
+      },
+      {
+        "title": "Music",
+        "url": "#"
+      }
+    ]
+  },
+  "latestContentTitle": "Latest Posts"
+}

@@ -1,0 +1,300 @@
+{
+  "title": "Pattern Lab",
+  "subline": "Only the best content for the best listeners!",
+  "htmlClass": "pl",
+  "bodyClass": "body",
+  "headerSmall": true,
+  "headerLarge": false,
+  "youTube": {
+    "title": "the_black_keys_-_gold_on_the_ceiling_official_music_video",
+    "videoId": "6yCIDkFI7ew"
+  },
+  "img": {
+    "alpha": {
+      "src": "../../../../assets/images/Alpha.jpg",
+      "alt": "1x1 Image Alpha -- 390x250",
+      "caption": "Photo by Jon Doe"
+    },
+    "beta": {
+      "src": "../../../../assets/images/Beta.jpg",
+      "alt": "1x2 Image Beta -- 780x250",
+      "caption": "Photo by Jane Doe"
+    },
+    "gamma": {
+      "src": "../../../../assets/images/Gamma.jpg",
+      "alt": "2x1 Image Gamma -- 390x515",
+      "caption": "Photo by Jonathan Doe"
+    },
+    "delta": {
+      "src": "../../../../assets/images/Delta.jpg",
+      "alt": "2x2 Image Delta -- 780x515",
+      "caption": "Photo by Jannette Doe"
+    }
+  },
+  "headline": {
+    "short": "Lorem ipsum dolor sit (37 characters)",
+    "medium": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. (72 characters)"
+  },
+  "excerpt": {
+    "short": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "medium": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  "description": "So, setting about it as methodically as men might smoke out a wasps' nest, the Martians spread this strange stifling vapour over the Londonward country. The horns of the crescent slowly moved apart, until at last they formed a line from Hanwell to Coombe and Malden. All night through their destructive tubes advanced.",
+  "url": "#",
+  "name": {
+    "first": "Lacy",
+    "firsti": "L",
+    "middle": "Tommie",
+    "middlei": "T",
+    "last": "Way",
+    "lasti": "W"
+  },
+  "year": {
+    "long": "2013",
+    "short": "13"
+  },
+  "month": {
+    "long": "February",
+    "short": "Feb",
+    "digit": "02"
+  },
+  "dayofweek": {
+    "long": "Monday",
+    "short": "Mon"
+  },
+  "day": {
+    "long": "10",
+    "short": "10",
+    "ordinal": "th"
+  },
+  "hour": {
+    "long": "01",
+    "short": "1",
+    "military": "13",
+    "ampm": "pm"
+  },
+  "minute": {
+    "long": "20",
+    "short": "20"
+  },
+  "seconds": "31",
+  "author": {
+    "first-name": "Author",
+    "last-name": "Name"
+  },
+  "hero": true,
+  "emergency": false,
+  "text": {
+    "class": "",
+    "verbiage": "Text the Station",
+    "number": 91077
+  },
+  "c2aAlpha": {
+    "url": "http://dev.twitter.com",
+    "img": "../../../../assets/images/Alpha.jpg",
+    "caption": "So you're in seattle: Pepper the DJ!",
+    "type": "Blog",
+    "fb": "104",
+    "tw": "7"
+  },
+  "c2aBeta": {
+    "url": "http://dev.twitter.com",
+    "img": "../../../../assets/images/Beta.jpg",
+    "caption": "Chive Fest @ Seattle Center",
+    "type": "Concerts",
+    "fb": "29",
+    "tw": "17"
+  },
+  "c2aGamma": {
+    "url": "http://dev.twitter.com",
+    "img": "../../../../assets/images/Gamma.jpg",
+    "caption": "The Vines Are Back!",
+    "type": "Audio",
+    "fb": "5",
+    "tw": "3"
+  },
+  "c2aDelta": {
+    "url": "http://dev.twitter.com",
+    "img": "../../../../assets/images/Delta.jpg",
+    "caption": "Watch: Clint Dempsey Showed Up On Letterman",
+    "type": "Video",
+    "fb": "45",
+    "tw": "0"
+  },
+  "heroBox": {
+    "title": "Hero Image Box",
+    "subtitle": "This is a prime example of a subtitle",
+    "size": "default",
+    "position": "bottom-left"
+  },
+  "heroBoxTall": {
+    "title": "Hero Image Tall Box",
+    "subtitle": "",
+    "size": "tall",
+    "position": "top-right"
+  },
+  "heroBoxSmall": {
+    "title": "Hero Image Small Box",
+    "subtitle": "",
+    "size": "small",
+    "position": ""
+  },
+  "latestContentTitle": "Latest Content!",
+  "latestContentItemThumb": {
+    "latestContentItem": [
+      {
+        "url": "https://about.twitter.com",
+        "title": "Faith No More Sold Out @ Paramount Theatre 04.16.15",
+        "thumb": "../../../../assets/images/content-thumb-1.png"
+      },
+      {
+        "url": "https://about.twitter.com",
+        "title": "Kimbra @ Neptune Theatre 04.13.15",
+        "thumb": "../../../../assets/images/content-thumb-1.png"
+      },
+      {
+        "url": "https://about.twitter.com",
+        "title": "Nick from DCFC to DJ on RSD at SB! ",
+        "thumb": "../../../../assets/images/content-thumb-1.png"
+      }
+    ]
+  },
+  "latestContentItemThumbTall": {
+    "latestContentItem": [
+      {
+        "url": "https://about.twitter.com",
+        "title": "Faith No More Sold Out @ Paramount Theatre 04.16.15",
+        "thumb": "../../../../assets/images/content-thumb-1.png"
+      },
+      {
+        "url": "https://about.twitter.com",
+        "title": "Kimbra @ Neptune Theatre 04.13.15",
+        "thumb": "../../../../assets/images/content-thumb-1.png"
+      },
+      {
+        "url": "https://about.twitter.com",
+        "title": "Nick from DCFC to DJ on RSD at SB! ",
+        "thumb": "../../../../assets/images/content-thumb-1.png"
+      },
+      {
+        "url": "https://about.twitter.com",
+        "title": "Faith No More Sold Out @ Paramount Theatre 04.16.15",
+        "thumb": "../../../../assets/images/content-thumb-1.png"
+      },
+      {
+        "url": "https://about.twitter.com",
+        "title": "Kimbra @ Neptune Theatre 04.13.15",
+        "thumb": "../../../../assets/images/content-thumb-1.png"
+      },
+      {
+        "url": "https://about.twitter.com",
+        "title": "Nick from DCFC to DJ on RSD at SB! ",
+        "thumb": "../../../../assets/images/content-thumb-1.png"
+      },
+      {
+        "url": "https://about.twitter.com",
+        "title": "Faith No More Sold Out @ Paramount Theatre 04.16.15",
+        "thumb": "../../../../assets/images/content-thumb-1.png"
+      }
+    ]
+  },
+  "latestContentItemThumb2Up": {
+    "latestContentItem": [
+      {
+        "url": "https://business.twitter.com",
+        "title": "In defense of my crush on Vance Joy",
+        "thumb": "../../../../assets/images/content-thumb-1.png"
+      },
+      {
+        "url": "https://business.twitter.com",
+        "title": "Full 90 Extra Time - Fletcher Flies First Class",
+        "thumb": "../../../../assets/images/content-thumb-1.png"
+      },
+      {
+        "url": "https://business.twitter.com",
+        "title": "Nerd Talk Wants A Space Donut",
+        "thumb": "../../../../assets/images/content-thumb-1.png"
+      },
+      {
+        "url": "https://business.twitter.com",
+        "title": "Nerd Talk Has a Cure For Colorblindness",
+        "thumb": "../../../../assets/images/content-thumb-1.png"
+      }
+    ]
+  },
+  "placeholderContent": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h3>Header Level 3</h3><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul>",
+  "contentListingItem": {
+    "url": "http://business.twitter.com",
+    "img": "../../../../assets/images/Delta.jpg",
+    "title": "New Music Discovery: Mumford and Sons \"Believe\"",
+    "desc": "Are you ready for a brand new sound from Mumford and Sons? The dudes have ditched their banjos and kick drums for a bigger, more electric sound on their new record."
+  },
+  "showItems": [
+    {
+      "title": "EndSessions",
+      "url": "http://www.1077theend.com/"
+    },
+    {
+      "title": "Subtronic End",
+      "url": "http://www.1077theend.com/pages/20293578.php"
+    },
+    {
+      "title": "Locals Only",
+      "url": "http://www.1077theend.com/Locals-Only/12676634"
+    },
+    {
+      "title": "The End Unplugged",
+      "url": "http://www.1077theend.com/End-Unplugged/11929331"
+    },
+    {
+      "title": "Resurrection Sunday",
+      "url": "http://blogs.1077theend.com/resurrectionflashbacksunday/"
+    },
+    {
+      "title": "Passport Approved",
+      "url": "http://www.passportapproved.com/"
+    }
+  ],
+  "articleTags": {
+    "items": [
+      {
+        "title": "New Music",
+        "url": "#"
+      },
+      {
+        "title": "Here First!",
+        "url": "#"
+      },
+      {
+        "title": "Locals Only",
+        "url": "#"
+      }
+    ]
+  },
+  "link-list-default": {
+    "listTitle": "Shows",
+    "items": [
+      {
+        "title": "EndSessions",
+        "url": "http://www.1077theend.com/"
+      },
+      {
+        "title": "Subtronic End",
+        "url": "http://www.1077theend.com/pages/20293578.php"
+      },
+      {
+        "title": "Locals Only",
+        "url": "http://www.1077theend.com/Locals-Only/12676634"
+      },
+      {
+        "title": "The End Unplugged",
+        "url": "http://www.1077theend.com/End-Unplugged/11929331"
+      },
+      {
+        "title": "Resurrection Sunday",
+        "url": "http://blogs.1077theend.com/resurrectionflashbacksunday/"
+      }
+    ]
+  }
+}
